@@ -1,0 +1,9 @@
+# t_ms,cmd,a1,a2,a3,lead_ms,note
+0,RESET,-,-,-,0,Init
+1500,SET,virtualLight,1,-,0,Light on
+3000,VR_EFFECT,flash,white,500,0,VR Flash Effect
+5000,PWM,virtualMotor,180,1000,50,Spin 1s
+7000,VR_EFFECT,haptic,strong,200,0,VR Haptic Feedback
+9000,SET,virtualLight,0,-,0,Light off
+12000,VR_EFFECT,audio,beep,100,0,VR Audio Cue
+
