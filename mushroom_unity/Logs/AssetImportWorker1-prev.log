@@ -1,35 +1,40 @@
+Unity Editor version:    6000.2.9f1 (e0c4e791ab71)
+Branch:                  6000.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.0.1 (Build 25A362)
+Darwin version:          25.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        24576 MB
+Date:                    2025-11-14T03:55:04Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 64730 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-23T17:39:21Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yangj" at "2025-10-23T17:39:21.7600135Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tllrllsa" at "2025-11-14T03:55:04.938773Z"
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-E:/mushroom_unity
+/Users/tllrllsa/Documents/Github/mushromm/mushroom_unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-4735
+51668
 -licensingIpc
-LicenseClient-yangj
+LicenseClient-tllrllsa
 -job-worker-count
-15
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
--name
-AssetImport
-Successfully changed project path to: E:/mushroom_unity
-E:/mushroom_unity
+-name AssetImport
+Successfully changed project path to: /Users/tllrllsa/Documents/Github/mushromm/mushroom_unity
+/Users/tllrllsa/Documents/Github/mushromm/mushroom_unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -65,27 +70,16 @@ E:/mushroom_unity
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [65068]  Target information:
+Player connection [8742668288]  Target information:
 
-Player connection [65068]  * "[IP] 192.168.12.157 [Port] 0 [Flags] 2 [Guid] 2739269316 [EditorId] 2739269316 [Version] 1048832 [Id] WindowsEditor(7,amberyang) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8742668288]  * "[IP] 192.168.12.178 [Port] 0 [Flags] 2 [Guid] 3425343603 [EditorId] 3425343603 [Version] 1048832 [Id] OSXEditor(0,Mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [65068] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [65068] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 15
+Player connection [8742668288] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8742668288] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 36332, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.3+a4e98f1
-  Session Id:              685d3c23ef674341b1b5585f99410c44
-  Correlation Id:          a23b4a13ae2252c18371a5b86515b2e4
-  External correlation Id: 1199709321830271204
-  Machine Id:              1lJ1zFAGjnDjUgxXWADdHXK0DtQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yangj" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yangj-notifications" at "2025-10-23T17:39:21.8454628Z"
-[Licensing::Module] Licensing Background thread has ended after 0.09s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -96,276 +90,271 @@ Library Redirect Path: Library/
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/mushroom_unity/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tllrllsa/Documents/Github/mushromm/mushroom_unity/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
-    Vendor:   NVIDIA
-    VRAM:     11997 MB
-    Driver:   32.0.15.8129
+ preferred device: Apple M4 Pro (high power)
+Metal devices available: 1
+0: Apple M4 Pro (high power)
+Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56331
 Begin MonoManager ReloadAssembly
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 63084, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              c92567aaa4be4b5ab0e5dc46c611da3e
+  Correlation Id:          92bcd60115a0ce45296ac916103a3191
+  External correlation Id: 6872061558932478647
+  Machine Id:              UP2j9FShiooX2GBYwiuMlj3WLCk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tllrllsa" (connect: 0.00s, validation: 0.00s, handshake: 0.42s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tllrllsa-notifications" at "2025-11-14T03:55:05.362577Z"
+[Licensing::Module] Licensing Background thread has ended after 0.42s
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009394 seconds.
-- Loaded All Assemblies, in  0.645 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000320 seconds.
+- Loaded All Assemblies, in  0.227 seconds
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.542 seconds
-Domain Reload Profiling: 1182ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  0.234 seconds
+Domain Reload Profiling: 461ms
+	BeginReloadAssembly (49ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (257ms)
-		LoadAssemblies (197ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (48ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (249ms)
-				TypeCache.ScanAssembly (229ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (542ms)
+	FinalizeReload (235ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (480ms)
+		SetupLoadedEditorAssemblies (210ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (89ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (192ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+[CoreBusinessMetrics] Unexpected thread when constructing MetricsHeader.
+[CoreBusinessMetrics] Unexpected thread when constructing MetricsHeader.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 2475303621786-UnityPersXXXX
+  Id: 2475893204028-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.401 seconds
+- Loaded All Assemblies, in  0.135 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.576 seconds
-Domain Reload Profiling: 975ms
-	BeginReloadAssembly (273ms)
+- Finished resetting the current domain, in  0.222 seconds
+Domain Reload Profiling: 358ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (18ms)
-		LoadAssemblies (151ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (10ms)
+		LoadAssemblies (33ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (4ms)
-			BuildScriptInfoCaches (2ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (576ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (222ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (411ms)
+		SetupLoadedEditorAssemblies (157ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (231ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 82 unused Assets / (27.0 KB). Loaded Objects now: 592.
-Memory consumption went from 62.6 MB to 62.6 MB.
-Total: 7.662800 ms (FindLiveObjects: 0.130400 ms CreateObjectMapping: 0.011900 ms MarkObjects: 7.336100 ms  DeleteObjects: 0.181700 ms)
+Unloading 78 unused Assets / (22.0 KB). Loaded Objects now: 577.
+Memory consumption went from 61.9 MB to 61.9 MB.
+Total: 3.127083 ms (FindLiveObjects: 0.023292 ms CreateObjectMapping: 0.005125 ms MarkObjects: 3.036000 ms  DeleteObjects: 0.062458 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 74744.705717 seconds.
-  path: Assets/invertedMaterial.mat
-  artifactKey: Guid(9197c8f495b260b478b8500416d83057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/invertedMaterial.mat using Guid(9197c8f495b260b478b8500416d83057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a38a61c41a6a6090255d3532bbb8831b') in 0.1891658 seconds
+  Time since last request: 406062.052177 seconds.
+  path: Assets/Skybox Texture.renderTexture
+  artifactKey: Guid(0e3d498f7d2cd48408fa368694151154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox Texture.renderTexture using Guid(0e3d498f7d2cd48408fa368694151154) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9b9bc5e5fa779ff11e0be677836135f') in 0.111038916 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1154.829400 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c37b750e75af7edcb78b0c695cee03e') in 0.1895579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000072 seconds.
+  path: Assets/VRVideoMaterial.mat
+  artifactKey: Guid(e07353f4b74c86e4b9284f1efbf04f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRVideoMaterial.mat using Guid(e07353f4b74c86e4b9284f1efbf04f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '000d092136f1c4224b77bf60ca6d67a6') in 0.165787625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16ee7b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.138 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 383ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (8ms)
+		LoadAssemblies (37ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.0 KB). Loaded Objects now: 623.
+Memory consumption went from 70.8 MB to 70.8 MB.
+Total: 3.219000 ms (FindLiveObjects: 0.027458 ms CreateObjectMapping: 0.005291 ms MarkObjects: 3.165833 ms  DeleteObjects: 0.020000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.482417 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b00e398790ddf25f45867d5d151bff4') in 0.07233125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Plugin/UnityOSC-master/src/OSC/OSCMessage.cs
-  artifactKey: Guid(9a8fdf3bfe0a3114a9fcea9357a03b4b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/src/OSC/OSCMessage.cs using Guid(9a8fdf3bfe0a3114a9fcea9357a03b4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81117feec74c7ba2987088ec5c94c242') in 0.0602263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Plugin/UnityOSC-master/src/OSC/OSCServer.cs
-  artifactKey: Guid(82a4fd696d061b0429b702794e728531) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/src/OSC/OSCServer.cs using Guid(82a4fd696d061b0429b702794e728531) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '842bc268657de3a117193a04ca1903ac') in 0.0466031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/UI/Button_Arrow.png
-  artifactKey: Guid(198f74c858279a0438be1e92fca53b7b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/UI/Button_Arrow.png using Guid(198f74c858279a0438be1e92fca53b7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4f7ff7d1798f8614931f1862618049f') in 0.1629228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Scripts/Demo/FreeCam.cs
-  artifactKey: Guid(a327e9ee6fee36c48b7b3c085b10ac47) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Scripts/Demo/FreeCam.cs using Guid(a327e9ee6fee36c48b7b3c085b10ac47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b9edc7faa2100918e3b5987c30bf3c3') in 0.0335408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_helper-members.html
-  artifactKey: Guid(ac66a819ee641f744b593dc7d3625f73) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_helper-members.html using Guid(ac66a819ee641f744b593dc7d3625f73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b017d54244ea0156d38d247fc9b93347') in 0.0411287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
+  Time since last request: 0.000138 seconds.
   path: Assets/Settings/PC_RPAsset.asset
   artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d1cb1575f1a73435673848bba5bd32d') in 0.0497556 seconds
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e9a5694234c0ba325bc7ef7832c0342') in 0.002006 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Lite Standard (Specular setup) Opaque.shader
-  artifactKey: Guid(ed04895971c00fc498c346df2ac0e9b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Lite Standard (Specular setup) Opaque.shader using Guid(ed04895971c00fc498c346df2ac0e9b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88256a3044aca431b16704b39375e56a') in 0.0495298 seconds
+  Time since last request: 0.000059 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/open.png
+  artifactKey: Guid(fe91055e34eaadd419c22a29ed8c632f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/open.png using Guid(fe91055e34eaadd419c22a29ed8c632f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cbc57ddd0ef5a6f77978434f67e445d') in 0.033820334 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2folderopen.png
-  artifactKey: Guid(72b29fadbab39df45b4853b122ecff6f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2folderopen.png using Guid(72b29fadbab39df45b4853b122ecff6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47dd6dfaf7d1478940ad3b56c662770e') in 0.0483318 seconds
+  Time since last request: 0.000103 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle.html
+  artifactKey: Guid(e18b2b07a17e35a48987a41cfc7417b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle.html using Guid(e18b2b07a17e35a48987a41cfc7417b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ade3739557075acc69f1f11f6394ae7d') in 0.002674083 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_MetallicSmoothness.png
-  artifactKey: Guid(a6d34ab870446f046a8e2ce046296e11) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_MetallicSmoothness.png using Guid(a6d34ab870446f046a8e2ce046296e11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '744ca1c0d5e1939e4a881cf3bd0430ac') in 0.0570028 seconds
+  Time since last request: 0.000122 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/jquery.js
+  artifactKey: Guid(5e7cfbc8991c52140a80aea8df983812) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/jquery.js using Guid(5e7cfbc8991c52140a80aea8df983812) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f68343784ec3caa875bf2e3a2462d67b') in 0.001302334 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/RockyDirt/RockyDirt_normal.png
-  artifactKey: Guid(a4818f55b22c0894981f4006a2c10a4c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/RockyDirt/RockyDirt_normal.png using Guid(a4818f55b22c0894981f4006a2c10a4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '469c3dcfca228431f41ed7cada4fbd6c') in 0.0588822 seconds
+  Time since last request: 0.000266 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2pnode.png
+  artifactKey: Guid(93bd78943073d564eb362decca8dff1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2pnode.png using Guid(93bd78943073d564eb362decca8dff1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f555154b0ac5b38a96de359c657afd7') in 0.004937917 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/Readme.txt
-  artifactKey: Guid(2c142b5f793b09d418982004b57af224) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/Readme.txt using Guid(2c142b5f793b09d418982004b57af224) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f06dc16b8725ec33d8b286221b7a6f5e') in 0.0355159 seconds
+  Time since last request: 0.000120 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_handler-members.html
+  artifactKey: Guid(fd5a9e1640a786d4c84db125f9ccea6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_handler-members.html using Guid(fd5a9e1640a786d4c84db125f9ccea6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48988ca0124f6a5d4929ce4614d09082') in 0.001423 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/GridBox_CSDemo.png
-  artifactKey: Guid(e40bd6e749701504aa060b8ca7656c84) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/GridBox_CSDemo.png using Guid(e40bd6e749701504aa060b8ca7656c84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1532393eb75acea37c56bf7c247514d5') in 0.0603758 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_message-members.html
-  artifactKey: Guid(1ba04a10274880240a9c50bcde2bf74a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_message-members.html using Guid(1ba04a10274880240a9c50bcde2bf74a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '694da5db58026a84f7de50b4093b892d') in 0.0387266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/files.html
-  artifactKey: Guid(66201032a76de0344a15cf4e1541e1a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/files.html using Guid(66201032a76de0344a15cf4e1541e1a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f87e8b8adf05791862554574b72fb54b') in 0.081193 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/GridBox_CSDemo_NoGrid.png
-  artifactKey: Guid(953144cb18f7f6140b354697b74d93ec) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/GridBox_CSDemo_NoGrid.png using Guid(953144cb18f7f6140b354697b74d93ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c67fba989b0354a35a69330d36c95a4') in 0.087333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Materials/HDRI/kloofendal_48d_partly_cloudy_2k.hdr
-  artifactKey: Guid(24221340d09832b43a4bf61292fff36d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Materials/HDRI/kloofendal_48d_partly_cloudy_2k.hdr using Guid(24221340d09832b43a4bf61292fff36d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29c916cf5b41cd7686f5f9d775d2f5ef') in 0.0852956 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
+  Time since last request: 0.000091 seconds.
   path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/closed.png
   artifactKey: Guid(c49c37a95648e3c43a237dc5ee7ae2fe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/closed.png using Guid(c49c37a95648e3c43a237dc5ee7ae2fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '629b34752f091be808793236da8a949e') in 0.0712981 seconds
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/closed.png using Guid(c49c37a95648e3c43a237dc5ee7ae2fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '642da65a88489407520b03ecafd21373') in 0.005341 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
+  Time since last request: 0.000082 seconds.
   path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2node.png
   artifactKey: Guid(b2b32809c4effff45b9f9e30e7d9346f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2node.png using Guid(b2b32809c4effff45b9f9e30e7d9346f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af9a64c2c91a57bcb1574850fc4e8eca') in 0.0505872 seconds
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2node.png using Guid(b2b32809c4effff45b9f9e30e7d9346f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ad85e4b8d754239630473ab48c37aa0') in 0.005179333 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
@@ -373,1088 +362,257 @@ Received Import Request.
   Time since last request: 0.000103 seconds.
   path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_message.html
   artifactKey: Guid(9a976031968634d42807b8544df1fcc3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_message.html using Guid(9a976031968634d42807b8544df1fcc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c4faf64cd19f7fa0284da7cbb8c673e') in 0.0457889 seconds
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_message.html using Guid(9a976031968634d42807b8544df1fcc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27de41c6f2ddfcd81691881d2ef3d876') in 0.00152625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_client_8cs_source.html
+  artifactKey: Guid(81fe07eae2578da4e8287b20fa20861f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_client_8cs_source.html using Guid(81fe07eae2578da4e8287b20fa20861f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fe45375ed173bca9a9715a93c16f17b') in 0.001166167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/navtree.css
+  artifactKey: Guid(f69b2a456b2ee7c4bbeac5fb50ecfd87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/navtree.css using Guid(f69b2a456b2ee7c4bbeac5fb50ecfd87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55fa6c964f8e4ce93e78c758c344e0ef') in 0.001046542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '302a36b25dcdd08932ba034ecac2bd79') in 0.001309083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Plugin/OSCmanager.cs
+  artifactKey: Guid(c306526bedfed8b4c99fe2e2a8ac9c04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/OSCmanager.cs using Guid(c306526bedfed8b4c99fe2e2a8ac9c04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1b627f4971da59d311d90b0127b37fa') in 0.004338208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d8ae90cf38a0d44faeac49cd4a9b308') in 0.001443042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2doc.png
+  artifactKey: Guid(5add6e3ca0a17084ebfa789815a9877b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2doc.png using Guid(5add6e3ca0a17084ebfa789815a9877b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8706f0459be9160d1b91943310ca2a0d') in 0.005071916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2lastnode.png
+  artifactKey: Guid(f470589d1e366ba4c9a82314a4ce13af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2lastnode.png using Guid(f470589d1e366ba4c9a82314a4ce13af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05f375b2fe6592fb59e9006dec5b7dcd') in 0.005543042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54ec7a6ab27b70f88319652ba2cfe1a6') in 0.002610833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/doxygen.png
+  artifactKey: Guid(fcf9677fbaae9384ea9b20b49760329e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/doxygen.png using Guid(fcf9677fbaae9384ea9b20b49760329e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8d017e64d14ad0c76a84b758c419a89') in 0.005348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/_Recovery/1.unity
+  artifactKey: Guid(bb9932028a5f34755bf7abf055ce8df0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Recovery/1.unity using Guid(bb9932028a5f34755bf7abf055ce8df0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21821e32fbf4da6bfb6efeb3e91d696b') in 0.001596791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/hierarchy.html
+  artifactKey: Guid(f96e4c4d49f02024e9f10bca366dd4e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/hierarchy.html using Guid(f96e4c4d49f02024e9f10bca366dd4e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55cb30f01acab1d18fd3bb2230e5e789') in 0.001127708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Plugin/UnityOSC-master/src/Editor/OSCHelper.cs
+  artifactKey: Guid(fc1fcf8680c600c4fa6df2b33115e72b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/src/Editor/OSCHelper.cs using Guid(fc1fcf8680c600c4fa6df2b33115e72b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfd2cb05fd8aef9c7f36d7f4504c1aed') in 0.00120625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle-members.html
+  artifactKey: Guid(52ae01e9220eb6e47b7e2dfb95a7ec58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle-members.html using Guid(52ae01e9220eb6e47b7e2dfb95a7ec58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dff10d5d1396d082bd25716ec865458') in 0.001367875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/doxygen.css
+  artifactKey: Guid(8df5994ac6bfd854e84469bad3fb0240) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/doxygen.css using Guid(8df5994ac6bfd854e84469bad3fb0240) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50d3d3785c7ffe27102b11066159f10c') in 0.001033958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_helper.html
+  artifactKey: Guid(670d272227023914e8e065a87802c4f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_helper.html using Guid(670d272227023914e8e065a87802c4f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b928aba33cb68c71e547daacdede5f9d') in 0.001265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a414e3d11d9d3fa0694037ef4129062') in 0.001535167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2blank.png
+  artifactKey: Guid(12fd0b3bc6428fb4a97296705f31b5ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2blank.png using Guid(12fd0b3bc6428fb4a97296705f31b5ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e82b3cb938e102e5d776e70d55bec40') in 0.004846916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(a0d5d720d6e78db4c9b63fec5b8245e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(a0d5d720d6e78db4c9b63fec5b8245e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb23f03ec62d15f46303f8a9213f6e09') in 0.00395175 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000070 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_client.html
-  artifactKey: Guid(385d4369e73788048a8dbcf3b3496f12) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_client.html using Guid(385d4369e73788048a8dbcf3b3496f12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c36d7b806b12e0ba82be1db73eb970b3') in 0.0388332 seconds
+  path: Assets/Skybox Texture.renderTexture
+  artifactKey: Guid(0e3d498f7d2cd48408fa368694151154) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Skybox Texture.renderTexture using Guid(0e3d498f7d2cd48408fa368694151154) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fff6cebd8a339f454b4e0aedee6ef4c') in 0.006521417 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Fibers.png
-  artifactKey: Guid(953eab576c42ff84bbf116175e0b6574) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Fibers.png using Guid(953eab576c42ff84bbf116175e0b6574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7db3e0177cae5f46e9c92380add5d1a') in 0.0809685 seconds
+  Time since last request: 0.000097 seconds.
+  path: Assets/Plugin/UnityOSC-master/README.md
+  artifactKey: Guid(5483c2fd8d97a614cae00598432ba5d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/README.md using Guid(5483c2fd8d97a614cae00598432ba5d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ec77d9d94ef7ca31f87f040b8f54c71') in 0.00115675 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/VRVideoMaterial.mat
-  artifactKey: Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRVideoMaterial.mat using Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30ae937173b038c2b1649f73fae434d5') in 0.0378723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Settings/PC_Renderer.asset
-  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f90af936b85dfbcac3fc98014876e797') in 0.0335142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Plugin/OSCmanager.cs
-  artifactKey: Guid(c306526bedfed8b4c99fe2e2a8ac9c04) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/OSCmanager.cs using Guid(c306526bedfed8b4c99fe2e2a8ac9c04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7931ed88349cb3abfc666e5143c1e39b') in 0.0323416 seconds
+  Time since last request: 0.000105 seconds.
+  path: Assets/Plugin/UnityOSC-master/src/OSC/OSCReciever.cs
+  artifactKey: Guid(9437e000476cad548898237efd3ae874) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/src/OSC/OSCReciever.cs using Guid(9437e000476cad548898237efd3ae874) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9967c44887fb7e46434c7c546109f6cc') in 0.001377416 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000093 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Materials/Walls_GridBox_CSDemo.mat
-  artifactKey: Guid(a2418d21f33b49e4db4c46502475ba0d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Materials/Walls_GridBox_CSDemo.mat using Guid(a2418d21f33b49e4db4c46502475ba0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a309a30311f207c45380a3830f1d920') in 0.066408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2lastnode.png
-  artifactKey: Guid(f470589d1e366ba4c9a82314a4ce13af) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2lastnode.png using Guid(f470589d1e366ba4c9a82314a4ce13af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d782af86f8e196db0baa3456cc8c92d') in 0.0375085 seconds
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2vertline.png
+  artifactKey: Guid(f1203cf1eb3725644b920b944a52d8d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2vertline.png using Guid(f1203cf1eb3725644b920b944a52d8d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84e5506066e869ae9f7acdc006745f08') in 0.005469541 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74a6de714254e1dde7c51a7554eaa22b') in 0.0508829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/doxygen.png
-  artifactKey: Guid(fcf9677fbaae9384ea9b20b49760329e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/doxygen.png using Guid(fcf9677fbaae9384ea9b20b49760329e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba796e2c084013ae56b9376d870ade8e') in 0.0507772 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StreamingAssets/scene3_original.mp4
-  artifactKey: Guid(75d925cbbad17a74694d648b73417a5b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StreamingAssets/scene3_original.mp4 using Guid(75d925cbbad17a74694d648b73417a5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cfdb8312173b3de9e7b62e303e2921c') in 0.0359898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Logo_2020_2K2.png
-  artifactKey: Guid(e937af7b265e5324c80530ca8184137c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Logo_2020_2K2.png using Guid(e937af7b265e5324c80530ca8184137c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1070e108feb089f129b3566e4ff6759') in 0.0564912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Materials/Ground_GridBox_CSDemo.mat
-  artifactKey: Guid(11b04609bfca74246a5748050b5966f6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Materials/Ground_GridBox_CSDemo.mat using Guid(11b04609bfca74246a5748050b5966f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b0094642a05f7b9b640818906ec54c4') in 0.0628019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/UI/Button_Arrow-hover.png
-  artifactKey: Guid(226933d046cc7a149b64e0e28a9ba3a5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/UI/Button_Arrow-hover.png using Guid(226933d046cc7a149b64e0e28a9ba3a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a54162282447293435b87b49030db4d5') in 0.0539783 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle-members.html
-  artifactKey: Guid(52ae01e9220eb6e47b7e2dfb95a7ec58) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle-members.html using Guid(52ae01e9220eb6e47b7e2dfb95a7ec58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ada0b97e256054530bec6b7db30a64b7') in 0.0373584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/doxygen.css
-  artifactKey: Guid(8df5994ac6bfd854e84469bad3fb0240) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/doxygen.css using Guid(8df5994ac6bfd854e84469bad3fb0240) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e94572b3e45fb97c27cfd341eb39ac97') in 0.0598345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_helper.html
-  artifactKey: Guid(670d272227023914e8e065a87802c4f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_helper.html using Guid(670d272227023914e8e065a87802c4f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5854943a4e5ec0022dad3fc4e74e90a') in 0.0439198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/TutorialInfo/Layout.wlt
-  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b94e3500126edd752ff58a67a921982') in 0.0591778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Lite Standard (Specular setup) Transparent.shader
-  artifactKey: Guid(bbb29bc6f1f0b704d989cac34a3a1b7e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Lite Standard (Specular setup) Transparent.shader using Guid(bbb29bc6f1f0b704d989cac34a3a1b7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44615189c42f9ddcb0cd6f12e67476e2') in 0.0437453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Standard (Specular setup) Cutout.shader
-  artifactKey: Guid(1f53b2e079258874d987bc2948630b78) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Standard (Specular setup) Cutout.shader using Guid(1f53b2e079258874d987bc2948630b78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1c353db7341f325855fec7736624c05') in 0.036983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2blank.png
-  artifactKey: Guid(12fd0b3bc6428fb4a97296705f31b5ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2blank.png using Guid(12fd0b3bc6428fb4a97296705f31b5ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '275e150183226a0beb9180738ffeffd3') in 0.0841155 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
-  artifactKey: Guid(a0d5d720d6e78db4c9b63fec5b8245e5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(a0d5d720d6e78db4c9b63fec5b8245e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f7924695b87b739858e3db960a27d7e') in 0.0412378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/Cracks.tif
-  artifactKey: Guid(1a892705908bb8646bc1a01ab6e068a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/Cracks.tif using Guid(1a892705908bb8646bc1a01ab6e068a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3be2ed97caa79c5f89eca1695bc7c82') in 0.0650227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0004aef41e9fae46cf7f99c51e7b7b77') in 0.0594732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_packet.html
-  artifactKey: Guid(46de73c97e0cf7d45ba12c69b9d41dcd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_packet.html using Guid(46de73c97e0cf7d45ba12c69b9d41dcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a02a04db0b1a95cfb9993a9ead2f767f') in 0.0494375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Plugin/UnityOSC-master/src/OSC/OSCBundle.cs
-  artifactKey: Guid(876e0b4267d45554693f3f5f00a41d7a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/src/OSC/OSCBundle.cs using Guid(876e0b4267d45554693f3f5f00a41d7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae9f6912f305a12038066b443ca31d70') in 0.042399 seconds
+  Time since last request: 0.000079 seconds.
+  path: Assets/Plugin/UnityOSC-master/src/OSC/OSCPacket.cs
+  artifactKey: Guid(12fda583c9739704190eaf7bfe10e5e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/src/OSC/OSCPacket.cs using Guid(12fda583c9739704190eaf7bfe10e5e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fa40d91f5284b913847a0bf440a8002') in 0.001255083 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_server.html
-  artifactKey: Guid(33661e19f34e049469ff8c6176468b9d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_server.html using Guid(33661e19f34e049469ff8c6176468b9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e886cf547bc9510407f0f682181316d') in 0.0438868 seconds
+  Time since last request: 0.000087 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/UnityOSC & TouchOSC Integration.pdf
+  artifactKey: Guid(e3235f8c7829f8e48877bbc47821f6be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/UnityOSC & TouchOSC Integration.pdf using Guid(e3235f8c7829f8e48877bbc47821f6be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc4454ad61f7e1ed60ba4e8d8c952078') in 0.00106375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8e8d431e1ff234f422991d44197e6ce') in 0.0372758 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Plugin/UnityOSC-master/src/OSC/OSCReciever.cs
-  artifactKey: Guid(9437e000476cad548898237efd3ae874) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/src/OSC/OSCReciever.cs using Guid(9437e000476cad548898237efd3ae874) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fcbedab2afc351049c90dc59c52591c') in 0.0387759 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_Normal.png
-  artifactKey: Guid(3a6b9bdffc17dcb44aea3f413e81ee84) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_Normal.png using Guid(3a6b9bdffc17dcb44aea3f413e81ee84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ca967438527d5ba01277bbd2f4b7e3b') in 0.0530822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Plugin/UnityOSC-master/src/OSCHandler.cs
-  artifactKey: Guid(48199ad6e22f16c4490f28faa053fc34) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/src/OSCHandler.cs using Guid(48199ad6e22f16c4490f28faa053fc34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03ff7f5078167a8ebe62140b41f35549') in 0.043237 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9ddd431c6772da5842f09d4539c9f0e') in 0.0329158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011642 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2mlastnode.png
-  artifactKey: Guid(20c1bd5a2bd29374091233ee28c86bb4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2mlastnode.png using Guid(20c1bd5a2bd29374091233ee28c86bb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91d2a6c4956f88b8c2006468493ef749') in 0.0468917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008729 seconds.
-  path: Assets/Plugin/UnityOSC-master/src/OSC/OSCClient.cs
-  artifactKey: Guid(509112971fe25474aacd910e344856db) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/src/OSC/OSCClient.cs using Guid(509112971fe25474aacd910e344856db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a6ce2cd8bed47a94e6b384f6db108a9') in 0.0456647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Materials/HDRI/CS_Skybox.mat
-  artifactKey: Guid(2cab8cb3df7c79a4e9985263c9a35d15) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Materials/HDRI/CS_Skybox.mat using Guid(2cab8cb3df7c79a4e9985263c9a35d15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6276d539f61acb9863cead45fb33e99e') in 0.04784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019393 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Standard (Specular setup) Transparent.shader
-  artifactKey: Guid(2914c939860ab3b40b0972bf8aedb87f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Standard (Specular setup) Transparent.shader using Guid(2914c939860ab3b40b0972bf8aedb87f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a922b14b59fef0fce15e904f2d74c887') in 0.0524618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_server_8cs_source.html
-  artifactKey: Guid(4ba3defb1a1662948a60b86a6f28aae3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_server_8cs_source.html using Guid(4ba3defb1a1662948a60b86a6f28aae3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'feac83bf9851978683b08fec497fc5a7') in 0.0525177 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/UnityOSC_Logo.jpg
-  artifactKey: Guid(0d48ff6e198c0cb49ac5d5c1058fb2dc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/UnityOSC_Logo.jpg using Guid(0d48ff6e198c0cb49ac5d5c1058fb2dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33d95e1836cd394c4857cad4c02e9540') in 0.0512064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_helper_8cs_source.html
-  artifactKey: Guid(1b74c99ff50e235428e7903016b4dfdf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_helper_8cs_source.html using Guid(1b74c99ff50e235428e7903016b4dfdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da5f7713a709e8cc4206497d4581dc91') in 0.0339312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/navtree.js
-  artifactKey: Guid(fe6c6d5f19c66524ba8d94a91fc60611) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/navtree.js using Guid(fe6c6d5f19c66524ba8d94a91fc60611) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '858c68b40033ccf8b9237b2b3e788301') in 0.0464932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Wall.mat
-  artifactKey: Guid(5f7a6b45b0cdafb478c04a342ca5a7b6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Wall.mat using Guid(5f7a6b45b0cdafb478c04a342ca5a7b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e081af09e0441218c6923aa39e05515c') in 0.1064104 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/open.png
-  artifactKey: Guid(fe91055e34eaadd419c22a29ed8c632f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/open.png using Guid(fe91055e34eaadd419c22a29ed8c632f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '694834d38effa41eee5c1df946f8f1e6') in 0.0696858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Window_Window_Roughness.png
-  artifactKey: Guid(86ebfa1ab0e548a49856929ed997d670) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Window_Window_Roughness.png using Guid(86ebfa1ab0e548a49856929ed997d670) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ddf207a9bb7e187fdf73f7a19150fc8') in 0.0607056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/_Prefabs/Fence(1side).prefab
-  artifactKey: Guid(ac2b4bffdeee9634180fd23ecea63432) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/_Prefabs/Fence(1side).prefab using Guid(ac2b4bffdeee9634180fd23ecea63432) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c669aea6525ae913a9e3e4ace182f4f2') in 0.0803474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/functions.html
-  artifactKey: Guid(ae3f2e85263c9014ea17cca983c4b62b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/functions.html using Guid(ae3f2e85263c9014ea17cca983c4b62b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06c3a243a0ba9cb05303f90d8f0baf2e') in 0.02986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel_BaseColor_Ciconia.png
-  artifactKey: Guid(cbafcc29d825a8546988cd420697ee9d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel_BaseColor_Ciconia.png using Guid(cbafcc29d825a8546988cd420697ee9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bddca572487b0b42ded3f69b77264ac7') in 0.0565442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Fence/Fence(1side).FBX
-  artifactKey: Guid(c5a1abbec40af434f9ed8e6777bee009) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Fence/Fence(1side).FBX using Guid(c5a1abbec40af434f9ed8e6777bee009) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca7a37feb78b70b5a6dbd33277d4c538') in 0.0797922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/struct_client_log-members.html
-  artifactKey: Guid(28b3dfcc85e0ba643bac7f37a97a8d4b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/struct_client_log-members.html using Guid(28b3dfcc85e0ba643bac7f37a97a8d4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13aedeab6eab67dd9d8f769a508e51de') in 0.0339312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_handler_8cs_source.html
-  artifactKey: Guid(6e6cc2fa21bd7b247a4cea3477e2b056) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_handler_8cs_source.html using Guid(6e6cc2fa21bd7b247a4cea3477e2b056) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e3b4fe0176267110a1328def444a246') in 0.0504046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2plastnode.png
-  artifactKey: Guid(36cf9af2a8a09bb41b0748a62dc5cfbc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2plastnode.png using Guid(36cf9af2a8a09bb41b0748a62dc5cfbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6226c0df9c26e3aa58e59f156ea586b9') in 0.0566984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_client_8cs_source.html
-  artifactKey: Guid(81fe07eae2578da4e8287b20fa20861f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_client_8cs_source.html using Guid(81fe07eae2578da4e8287b20fa20861f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e7c26160c08facc495adf43e14f585d') in 0.0455991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/navtree.css
-  artifactKey: Guid(f69b2a456b2ee7c4bbeac5fb50ecfd87) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/navtree.css using Guid(f69b2a456b2ee7c4bbeac5fb50ecfd87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e39b11bf435433fd41321ce5c8c34ac5') in 0.054676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/tab_b.png
-  artifactKey: Guid(44e250f5c0dd478428be216b3055e618) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/tab_b.png using Guid(44e250f5c0dd478428be216b3055e618) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28464bec842c378595e3e0166fe98407') in 0.0520516 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Windows.mat
-  artifactKey: Guid(cfd0864c93c1b674ea3428eb72f1249d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Windows.mat using Guid(cfd0864c93c1b674ea3428eb72f1249d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c491cf3196bacdd5b91006d8f39fe25d') in 0.0506461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/_Prefabs/Panel.prefab
-  artifactKey: Guid(5c490ee0827253148b4cacbe02d03dc9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/_Prefabs/Panel.prefab using Guid(5c490ee0827253148b4cacbe02d03dc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd65391bdd3eaa8cd055c41ac895c03a8') in 0.0410065 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Window_Wood_Roughness.png
-  artifactKey: Guid(b0d13b33bdc52964486bdafd48ce7401) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Window_Wood_Roughness.png using Guid(b0d13b33bdc52964486bdafd48ce7401) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6a95bdbcf32b6df6a1cfcec09baade7') in 0.0673453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/hierarchy.html
-  artifactKey: Guid(f96e4c4d49f02024e9f10bca366dd4e9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/hierarchy.html using Guid(f96e4c4d49f02024e9f10bca366dd4e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c72a7bff008d4de538269e9a298b035') in 0.0734288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel_BaseColor_Unity.png
-  artifactKey: Guid(185714149ed634d4497bd8aec133b8ff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel_BaseColor_Unity.png using Guid(185714149ed634d4497bd8aec133b8ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72c351908c3edac0d5d74686b086201e') in 0.0824683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Standard Demo_Build-in_Profiles/Post-process Volume Profile.asset
-  artifactKey: Guid(5c76409c584a24447b47f13cfa119e51) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Standard Demo_Build-in_Profiles/Post-process Volume Profile.asset using Guid(5c76409c584a24447b47f13cfa119e51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd4204af6059f577dca6bec04282adcb') in 0.0403751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel.mat
-  artifactKey: Guid(7cfa323e1e0eb4f4b9b63a00b6fe9fae) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel.mat using Guid(7cfa323e1e0eb4f4b9b63a00b6fe9fae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5ee5e5297973e20b9c567e9d55db539') in 0.0730546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/resize.js
-  artifactKey: Guid(1a502b20f34103c45bad6e49b947b464) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/resize.js using Guid(1a502b20f34103c45bad6e49b947b464) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fdf17b7f3ca1a93730889866047008b') in 0.0659252 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
+  Time since last request: 0.000082 seconds.
   path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle.png
   artifactKey: Guid(a3a39b5aad0210a44b3041264e963222) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle.png using Guid(a3a39b5aad0210a44b3041264e963222) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a089b7284c2e743b993b40cea637a14c') in 0.1071758 seconds
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_bundle.png using Guid(a3a39b5aad0210a44b3041264e963222) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff7f39fc96f868b30a88c0b9aef00e84') in 0.00543775 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/namespace_unity_o_s_c.html
-  artifactKey: Guid(2ebc946bd97f35b488169b931d385a04) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/namespace_unity_o_s_c.html using Guid(2ebc946bd97f35b488169b931d385a04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '527e25e33b2fce8c71b2d13768c1db2a') in 0.0499138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
+  Time since last request: 0.000084 seconds.
   path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_server-members.html
   artifactKey: Guid(30c90131fca481847843329676184fd1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_server-members.html using Guid(30c90131fca481847843329676184fd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bcad0263e2d9cc556ad5e51afd765e3') in 0.0639928 seconds
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_server-members.html using Guid(30c90131fca481847843329676184fd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a0552b4021e3f6c5ab86e1893bcf9d2') in 0.001306666 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_BaseColor.png
-  artifactKey: Guid(5da468cccf8ead54992c6231788b60f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_BaseColor.png using Guid(5da468cccf8ead54992c6231788b60f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d0c5ff28d430dd543175a88147e3e98') in 0.0803478 seconds
+  Time since last request: 0.000093 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2mnode.png
+  artifactKey: Guid(cf873d6d3f7239a4498a6d11d43744dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2mnode.png using Guid(cf873d6d3f7239a4498a6d11d43744dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7da84027070030d7257546eab07c6a8c') in 0.00549875 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/index.html
-  artifactKey: Guid(395c12589f91da1439d3059866def688) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/index.html using Guid(395c12589f91da1439d3059866def688) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2b5d94af7e43177dd38a81e5aa88c0a') in 0.0789802 seconds
+  Time since last request: 0.467764 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/struct_server_log-members.html
+  artifactKey: Guid(0f0896f20b5a84b4f973d4664f54eb44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/struct_server_log-members.html using Guid(0f0896f20b5a84b4f973d4664f54eb44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30ccbb9dda4e2a765bb5d316c30b9cb6') in 0.001724042 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 532.700771 seconds.
-  path: Assets/scene3_4k_smooth.mp4
-  artifactKey: Guid(391bdca06cfae52439846f56fd4a2ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scene3_4k_smooth.mp4 using Guid(391bdca06cfae52439846f56fd4a2ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c0a64d59db6b4034c7e98e3b45d5cb2') in 0.0022049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.968798 seconds.
-  path: Assets/scene3_4k_smooth.mp4
-  artifactKey: Guid(391bdca06cfae52439846f56fd4a2ba8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/scene3_4k_smooth.mp4 using Guid(391bdca06cfae52439846f56fd4a2ba8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b8f8278906fb7b949e98ddd87f6152c') in 0.0427612 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.552 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 1204ms
-	BeginReloadAssembly (359ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (28ms)
-		LoadAssemblies (223ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (6ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (658ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (466ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (159ms)
-			ProcessInitializeOnLoadAttributes (246ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (25.0 KB). Loaded Objects now: 635.
-Memory consumption went from 68.0 MB to 67.9 MB.
-Total: 5.830700 ms (FindLiveObjects: 0.074200 ms CreateObjectMapping: 0.011800 ms MarkObjects: 5.620000 ms  DeleteObjects: 0.122700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.511 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.717 seconds
-Domain Reload Profiling: 1225ms
-	BeginReloadAssembly (344ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (74ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (25ms)
-		LoadAssemblies (212ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (6ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (718ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (508ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (168ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.0 KB). Loaded Objects now: 635.
-Memory consumption went from 67.9 MB to 67.9 MB.
-Total: 8.956800 ms (FindLiveObjects: 0.115700 ms CreateObjectMapping: 0.018800 ms MarkObjects: 8.748100 ms  DeleteObjects: 0.072000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.425 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.513 seconds
-Domain Reload Profiling: 933ms
-	BeginReloadAssembly (279ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (19ms)
-		LoadAssemblies (167ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (4ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (513ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (356ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (192ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.0 KB). Loaded Objects now: 635.
-Memory consumption went from 67.9 MB to 67.9 MB.
-Total: 5.949800 ms (FindLiveObjects: 0.071700 ms CreateObjectMapping: 0.011500 ms MarkObjects: 5.795700 ms  DeleteObjects: 0.069000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.393 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.481 seconds
-Domain Reload Profiling: 872ms
-	BeginReloadAssembly (263ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (18ms)
-		LoadAssemblies (160ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (4ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (482ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (339ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.0 KB). Loaded Objects now: 635.
-Memory consumption went from 67.9 MB to 67.9 MB.
-Total: 5.486200 ms (FindLiveObjects: 0.072100 ms CreateObjectMapping: 0.013400 ms MarkObjects: 5.340400 ms  DeleteObjects: 0.058400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1850.454147 seconds.
-  path: Assets/invertedMaterial.mat
-  artifactKey: Guid(9197c8f495b260b478b8500416d83057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/invertedMaterial.mat using Guid(9197c8f495b260b478b8500416d83057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcd7fa41e0f65a52989d3eb7cf58cf10') in 0.1621069 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.439670 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0006653 seconds
+  Time since last request: 0.000137 seconds.
+  path: Assets/Plugin/UnityOSC-master/src/Examples/SimpleReceiver/SimpleReceiverExample.cs
+  artifactKey: Guid(645022c24c69ab549b8895b51fa6779b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/src/Examples/SimpleReceiver/SimpleReceiverExample.cs using Guid(645022c24c69ab549b8895b51fa6779b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2ed3ca8b07a359333beaa7b0099e533') in 0.001587292 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 93.859371 seconds.
-  path: Assets/Skybox Texture.renderTexture
-  artifactKey: Guid(0e3d498f7d2cd48408fa368694151154) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Skybox Texture.renderTexture using Guid(0e3d498f7d2cd48408fa368694151154) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac3a843344691161ecf0e019e0a58795') in 0.2502492 seconds
+  Time since last request: 0.000108 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/tab_b.png
+  artifactKey: Guid(44e250f5c0dd478428be216b3055e618) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/tab_b.png using Guid(44e250f5c0dd478428be216b3055e618) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c397c7e218988cb2b216963fb526329b') in 0.005646458 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 495.360369 seconds.
-  path: Assets/SkyBox Material.mat
-  artifactKey: Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBox Material.mat using Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8d5cd3ebec5fa398d4af7f2eaf5d4e0') in 0.1232761 seconds
+  Time since last request: 0.000118 seconds.
+  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/tab_a.png
+  artifactKey: Guid(658c9805c22300d4a9bda7679c88301a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/tab_a.png using Guid(658c9805c22300d4a9bda7679c88301a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed59350bb25b20bfc55927431d2acd23') in 0.005938459 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.837789 seconds.
-  path: Assets/SkyBox Material.mat
-  artifactKey: Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/SkyBox Material.mat using Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '868b8ed61e500a46b27dcdfdc350d7f4') in 0.0504796 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.413 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.518 seconds
-Domain Reload Profiling: 927ms
-	BeginReloadAssembly (275ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (20ms)
-		LoadAssemblies (163ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (5ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (519ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (358ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (185ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.0 KB). Loaded Objects now: 636.
-Memory consumption went from 68.0 MB to 68.0 MB.
-Total: 5.795000 ms (FindLiveObjects: 0.069300 ms CreateObjectMapping: 0.011400 ms MarkObjects: 5.663500 ms  DeleteObjects: 0.049100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.401 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.508 seconds
-Domain Reload Profiling: 905ms
-	BeginReloadAssembly (257ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (22ms)
-		LoadAssemblies (152ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (5ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (509ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (359ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (191ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.0 KB). Loaded Objects now: 636.
-Memory consumption went from 68.0 MB to 68.0 MB.
-Total: 5.580700 ms (FindLiveObjects: 0.076900 ms CreateObjectMapping: 0.012200 ms MarkObjects: 5.440500 ms  DeleteObjects: 0.049100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.399 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.500 seconds
-Domain Reload Profiling: 897ms
-	BeginReloadAssembly (263ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (18ms)
-		LoadAssemblies (150ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (4ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (501ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (344ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (180ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.1 KB). Loaded Objects now: 636.
-Memory consumption went from 68.0 MB to 68.0 MB.
-Total: 6.574600 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.020600 ms MarkObjects: 6.378100 ms  DeleteObjects: 0.045500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.435 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.505 seconds
-Domain Reload Profiling: 938ms
-	BeginReloadAssembly (303ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (18ms)
-		LoadAssemblies (185ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (4ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (506ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (362ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.0 KB). Loaded Objects now: 636.
-Memory consumption went from 68.0 MB to 68.0 MB.
-Total: 6.239200 ms (FindLiveObjects: 0.077500 ms CreateObjectMapping: 0.011700 ms MarkObjects: 6.094100 ms  DeleteObjects: 0.053800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.411 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.529 seconds
-Domain Reload Profiling: 935ms
-	BeginReloadAssembly (268ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (19ms)
-		LoadAssemblies (160ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (4ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (530ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (215ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.0 KB). Loaded Objects now: 636.
-Memory consumption went from 68.0 MB to 68.0 MB.
-Total: 5.871100 ms (FindLiveObjects: 0.073400 ms CreateObjectMapping: 0.011600 ms MarkObjects: 5.731100 ms  DeleteObjects: 0.053400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1028.259711 seconds.
-  path: Assets/SkyBox Material.mat
-  artifactKey: Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBox Material.mat using Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9157177015341a8dc97fe83c34ca37d') in 0.174421 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.417 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.503 seconds
-Domain Reload Profiling: 917ms
-	BeginReloadAssembly (277ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (20ms)
-		LoadAssemblies (162ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (4ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (503ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (357ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (191ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.0 KB). Loaded Objects now: 636.
-Memory consumption went from 68.0 MB to 68.0 MB.
-Total: 5.778800 ms (FindLiveObjects: 0.077500 ms CreateObjectMapping: 0.013800 ms MarkObjects: 5.624500 ms  DeleteObjects: 0.060600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
