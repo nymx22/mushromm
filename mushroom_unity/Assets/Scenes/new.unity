@@ -230,15 +230,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 981161907}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86646fb8feb0249dea8e256198f20332, type: 3}
+  m_Script: {fileID: 11500000, guid: 76ff5f05428af4989b4753fbfd9fdd53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  videoPlayer: {fileID: 0}
+  timelineFileName: mushroom_timeline.json
+  preSendOffsetMs: 60
+  esp32Address: 192.168.12.102
+  esp32Port: 12345
+  logPackets: 1
+  enableAudioOutput: 1
+  vibrationFrequency: 16.6
+  maxAudioVolume: 1
+  volumeBoost: 5
+  audioSmoothing: 0.95
+  waveformType: 0.931
+--- !u!114 &981161911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981161907}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab69405c9b30485d8f72f53460cac0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleSpeakerTest
+  testFrequency: 40
+  testVolume: 0.5
+  autoStart: 1
+  showGUI: 1
+--- !u!114 &981161914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981161907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3562204da46439ab0ae3d5f63efbdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TwoMotorTimelineHaptics
   videoPlayer: {fileID: 0}
   timelineFileName: mushroom_timeline.json
   preSendOffsetMs: 30
   esp32Address: 192.168.1.50
   esp32Port: 12345
   logPackets: 0
+  minStrength: 30
+  maxStrength: 60
+  motorIndices: 0000000001000000
 --- !u!1 &2029319773
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,6 +441,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6993841855644678931, guid: 25bb268356398493f9bfc98469b45201, type: 3}
       insertIndex: -1
       addedObject: {fileID: 981161910}
+    - targetCorrespondingSourceObject: {fileID: 6993841855644678931, guid: 25bb268356398493f9bfc98469b45201, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 981161911}
+    - targetCorrespondingSourceObject: {fileID: 6993841855644678931, guid: 25bb268356398493f9bfc98469b45201, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 981161914}
   m_SourcePrefab: {fileID: 100100000, guid: 25bb268356398493f9bfc98469b45201, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -7,9 +7,9 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        24576 MB
-Date:                    2025-11-14T03:55:04Z
+Date:                    2025-12-16T06:18:22Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tllrllsa" at "2025-11-14T03:55:04.835269Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tllrllsa" at "2025-12-16T06:18:22.670492Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51668
+52840
 -licensingIpc
 LicenseClient-tllrllsa
 -job-worker-count
@@ -70,12 +70,12 @@ Successfully changed project path to: /Users/tllrllsa/Documents/Github/mushromm/
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8742668288]  Target information:
+Player connection [8345405440]  Target information:
 
-Player connection [8742668288]  * "[IP] 192.168.12.178 [Port] 0 [Flags] 2 [Guid] 532234453 [EditorId] 532234453 [Version] 1048832 [Id] OSXEditor(0,Mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8345405440]  * "[IP] 192.168.1.116 [Port] 0 [Flags] 2 [Guid] 565686590 [EditorId] 565686590 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8742668288] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8742668288] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8345405440] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8345405440] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -108,54 +108,54 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56329
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 63084, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56229
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11010, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              8b494c885f7c41c3b4717c3b7e3be750
-  Correlation Id:          92bcd60115a0ce45296ac916103a3191
-  External correlation Id: 4200224219612475438
+  Session Id:              040f059235f34000b86fa0bd02049b8d
+  Correlation Id:          0756da6c6724cee273063d9b8ff21138
+  External correlation Id: 8860833985552127906
   Machine Id:              UP2j9FShiooX2GBYwiuMlj3WLCk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tllrllsa" (connect: 0.00s, validation: 0.00s, handshake: 0.43s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tllrllsa-notifications" at "2025-11-14T03:55:05.261854Z"
-[Licensing::Module] Licensing Background thread has ended after 0.43s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tllrllsa" (connect: 0.00s, validation: 0.00s, handshake: 0.30s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tllrllsa-notifications" at "2025-12-16T06:18:22.972699Z"
+[Licensing::Module] Licensing Background thread has ended after 0.30s
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000311 seconds.
-- Loaded All Assemblies, in  0.231 seconds
+Registered in 0.000198 seconds.
+- Loaded All Assemblies, in  0.155 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.236 seconds
-Domain Reload Profiling: 467ms
-	BeginReloadAssembly (51ms)
+- Finished resetting the current domain, in  0.176 seconds
+Domain Reload Profiling: 331ms
+	BeginReloadAssembly (36ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (51ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (74ms)
+		LoadAssemblies (36ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (72ms)
+				TypeCache.ScanAssembly (65ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (236ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (177ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (212ms)
+		SetupLoadedEditorAssemblies (161ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -173,403 +173,100 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.137 seconds
+- Loaded All Assemblies, in  0.097 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.223 seconds
-Domain Reload Profiling: 360ms
-	BeginReloadAssembly (79ms)
+- Finished resetting the current domain, in  0.169 seconds
+Domain Reload Profiling: 267ms
+	BeginReloadAssembly (59ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (10ms)
-	LoadAllAssembliesAndSetupDomain (12ms)
-		LoadAssemblies (34ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (8ms)
+	LoadAllAssembliesAndSetupDomain (7ms)
+		LoadAssemblies (25ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (1ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (223ms)
+	FinalizeReload (169ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (157ms)
+		SetupLoadedEditorAssemblies (125ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (83ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (22.0 KB). Loaded Objects now: 577.
-Memory consumption went from 61.9 MB to 61.9 MB.
-Total: 3.295375 ms (FindLiveObjects: 0.024167 ms CreateObjectMapping: 0.005292 ms MarkObjects: 3.206208 ms  DeleteObjects: 0.059333 ms)
+Unloading 79 unused Assets / (22.1 KB). Loaded Objects now: 582.
+Memory consumption went from 61.4 MB to 61.3 MB.
+Total: 2.290209 ms (FindLiveObjects: 0.018750 ms CreateObjectMapping: 0.003542 ms MarkObjects: 2.214375 ms  DeleteObjects: 0.053417 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 405935.745340 seconds.
-  path: Assets/invertedMaterial.mat
-  artifactKey: Guid(9197c8f495b260b478b8500416d83057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/invertedMaterial.mat using Guid(9197c8f495b260b478b8500416d83057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72768ecd239eedf4ea553fe966a1c9b0') in 0.236890041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 126.033159 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da1d7f2ac25edac3598e21ef0849251e') in 0.00616625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028005 seconds.
-  path: Assets/SkyBox Material.mat
-  artifactKey: Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBox Material.mat using Guid(e3fb1730b2e4e4141812b76ea62bd36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '068c2c6f17f5fa55fa71ba307bb87152') in 0.10419475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/testred.mat
-  artifactKey: Guid(0b44311f14429004b92bea31098953fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/testred.mat using Guid(0b44311f14429004b92bea31098953fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ac9a4a5a47bdc8d50f9bab6ffd5b9b5') in 0.043158333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/skybox2.renderTexture
-  artifactKey: Guid(16b152c95a553f44e80067f4edcce359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/skybox2.renderTexture using Guid(16b152c95a553f44e80067f4edcce359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2124a6d13439779487e678bb34e2e50a') in 0.015220083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/VRVideoTexture.renderTexture
-  artifactKey: Guid(b98f3db9006cff3478d4d59f0999d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRVideoTexture.renderTexture using Guid(b98f3db9006cff3478d4d59f0999d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee398488a625a3bcd7b8fdef19dacb61') in 0.003272084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x1716b7000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.138 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.246 seconds
-Domain Reload Profiling: 384ms
-	BeginReloadAssembly (84ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (10ms)
-	LoadAllAssembliesAndSetupDomain (8ms)
-		LoadAssemblies (36ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (6ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (2ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (246ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (181ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (95ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (1.0 KB). Loaded Objects now: 626.
-Memory consumption went from 71.0 MB to 71.0 MB.
-Total: 3.328959 ms (FindLiveObjects: 0.023958 ms CreateObjectMapping: 0.005292 ms MarkObjects: 3.279084 ms  DeleteObjects: 0.020375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 47.594776 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '355691ad2a05c8fc27eafa2a40d97c19') in 0.044976375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_server_8cs_source.html
-  artifactKey: Guid(4ba3defb1a1662948a60b86a6f28aae3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_server_8cs_source.html using Guid(4ba3defb1a1662948a60b86a6f28aae3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2459c7607eb0c64bd0e5faa8a97275d8') in 0.001671959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Plugin/UnityOSC-master/src/OSC/OSCMessage.cs
-  artifactKey: Guid(9a8fdf3bfe0a3114a9fcea9357a03b4b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/src/OSC/OSCMessage.cs using Guid(9a8fdf3bfe0a3114a9fcea9357a03b4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b14a76ad8f31848193f4c3756b87917') in 0.017105584 seconds
+  Time since last request: 17665.496233 seconds.
+  path: Assets/code/UnityTimelineHaptics.cs
+  artifactKey: Guid(76ff5f05428af4989b4753fbfd9fdd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/code/UnityTimelineHaptics.cs using Guid(76ff5f05428af4989b4753fbfd9fdd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c97d8654c702d960e7f6de008053f59') in 0.00185125 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_packet_8cs_source.html
-  artifactKey: Guid(470229ccdd049944881b12672c5bf3c3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_packet_8cs_source.html using Guid(470229ccdd049944881b12672c5bf3c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c10e9d712dc182a4b683d16a8d98494a') in 0.002242958 seconds
+  Time since last request: 115.207461 seconds.
+  path: Assets/code/esp32_timeline_playback.ino
+  artifactKey: Guid(0db316bc72ef34056bf92604dfdc4613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/code/esp32_timeline_playback.ino using Guid(0db316bc72ef34056bf92604dfdc4613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '220e5c120917435853073a856503290c') in 0.010050833 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_helper_8cs_source.html
-  artifactKey: Guid(1b74c99ff50e235428e7903016b4dfdf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_helper_8cs_source.html using Guid(1b74c99ff50e235428e7903016b4dfdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa6e66699fc55bc97118907f38af8159') in 0.00147575 seconds
+  Time since last request: 4.627887 seconds.
+  path: Assets/Scenes/new.unity
+  artifactKey: Guid(298e28a16de71413689f0d4501b032f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/new.unity using Guid(298e28a16de71413689f0d4501b032f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ca901c94f224d1413073a1e436623f7') in 0.031714708 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/navtree.js
-  artifactKey: Guid(fe6c6d5f19c66524ba8d94a91fc60611) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/navtree.js using Guid(fe6c6d5f19c66524ba8d94a91fc60611) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cd916a80f9d146b5e9759bdb0e560fd') in 0.00096125 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/code/esp32_timeline_playback.ino
+  artifactKey: Guid(0db316bc72ef34056bf92604dfdc4613) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/code/esp32_timeline_playback.ino using Guid(0db316bc72ef34056bf92604dfdc4613) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0c8376a38aea155d24456a256e84da0') in 0.001068875 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_helper-members.html
-  artifactKey: Guid(ac66a819ee641f744b593dc7d3625f73) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_helper-members.html using Guid(ac66a819ee641f744b593dc7d3625f73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48c12d0901f090dbd643ab780619e143') in 0.001036208 seconds
+  Time since last request: 0.000057 seconds.
+  path: Assets/StreamingAssets/mushroom_timeline.json
+  artifactKey: Guid(3fa3cdcd23df241c7957562bdca20510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StreamingAssets/mushroom_timeline.json using Guid(3fa3cdcd23df241c7957562bdca20510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e336977b1f2ecbae890e19f36fff5d63') in 0.00099525 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2folderopen.png
-  artifactKey: Guid(72b29fadbab39df45b4853b122ecff6f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2folderopen.png using Guid(72b29fadbab39df45b4853b122ecff6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06befad153d551fc3f982c43e28f7d35') in 0.034591375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/bc_s.png
-  artifactKey: Guid(3ac9880875fd7e64eabba34640e787ca) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/bc_s.png using Guid(3ac9880875fd7e64eabba34640e787ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0501d52e77dabc61e0945b56feb4111') in 0.005879125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/VR360Controller.cs
-  artifactKey: Guid(04b4828793d23f346952e4ea17f7a675) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VR360Controller.cs using Guid(04b4828793d23f346952e4ea17f7a675) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65f006d4d12d31d94e9f74b3973a4f03') in 0.001415167 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/code/SimpleSpeakerTest.cs
+  artifactKey: Guid(3ab69405c9b30485d8f72f53460cac0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/code/SimpleSpeakerTest.cs using Guid(3ab69405c9b30485d8f72f53460cac0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0adbfe0d1fa0e3e0705d9b2a5847abcf') in 0.0114945 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/files.html
-  artifactKey: Guid(66201032a76de0344a15cf4e1541e1a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/files.html using Guid(66201032a76de0344a15cf4e1541e1a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '050940fd4112bbf03b1fe8a1c14c6e51') in 0.001234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/TutorialInfo/Scripts/Readme.cs
-  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b7c246129194a74418c3255d0c5d21e') in 0.001251917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/VRVideoTexture.renderTexture
-  artifactKey: Guid(b98f3db9006cff3478d4d59f0999d9d5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRVideoTexture.renderTexture using Guid(b98f3db9006cff3478d4d59f0999d9d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ac5bca7a2bb50527e8ebc7adb229595') in 0.005893375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_handler_8cs_source.html
-  artifactKey: Guid(6e6cc2fa21bd7b247a4cea3477e2b056) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/_o_s_c_handler_8cs_source.html using Guid(6e6cc2fa21bd7b247a4cea3477e2b056) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be5b647470e902bcc02fd4256f26e6c8') in 0.00167275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_client-members.html
-  artifactKey: Guid(15069898bc048a048b6c91783513e584) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_client-members.html using Guid(15069898bc048a048b6c91783513e584) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4fbeeaa8d24b3e28fa1077f4deedf33') in 0.002058542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/nav_f.png
-  artifactKey: Guid(01e50dcb28d63424987c1414b3a77867) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/nav_f.png using Guid(01e50dcb28d63424987c1414b3a77867) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ec94ff5d2867cbf3c28cd0780ec0bf1') in 0.005454708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_client.html
-  artifactKey: Guid(385d4369e73788048a8dbcf3b3496f12) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_client.html using Guid(385d4369e73788048a8dbcf3b3496f12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '695dca7fb7340da238a63124c4ef8b4f') in 0.001413291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Settings/Build Profiles/Android™.asset
-  artifactKey: Guid(30e46c9931605374d8ff0c17c8a4524b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Build Profiles/Android™.asset using Guid(30e46c9931605374d8ff0c17c8a4524b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Missing types referenced from component BuildProfile on game object Android™:
-	UnityEditor.Android.AndroidPlatformBuildSettings, UnityEditor.Android.Extensions (1 object)
- -> (artifact id: '2d9df8c6798b246135876757080af69e') in 0.048085667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_handler.html
-  artifactKey: Guid(f96b78c5536b42b43899dacd48388b3e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_o_s_c_handler.html using Guid(f96b78c5536b42b43899dacd48388b3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a179f4d01e6c794d0952d523f9e36b69') in 0.002988875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/_Recovery/0.unity
-  artifactKey: Guid(817bbece3caae45599f1424ba94f054a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/_Recovery/0.unity using Guid(817bbece3caae45599f1424ba94f054a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e38009d2ae4ed5f875cc579d2407acae') in 0.0028795 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_server.html
-  artifactKey: Guid(33661e19f34e049469ff8c6176468b9d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_server.html using Guid(33661e19f34e049469ff8c6176468b9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb0b9402fe1684f93f4c4be30e178998') in 0.001525209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_packet.png
-  artifactKey: Guid(fb274c605b59a3046aeaaaca8dba0374) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/class_unity_o_s_c_1_1_o_s_c_packet.png using Guid(fb274c605b59a3046aeaaaca8dba0374) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ec114b0b2b8c5c76d87b08d24765ca4') in 0.005029583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2mlastnode.png
-  artifactKey: Guid(20c1bd5a2bd29374091233ee28c86bb4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/ftv2mlastnode.png using Guid(20c1bd5a2bd29374091233ee28c86bb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dfc0a39ccd2404d34d844b8453d8fb7') in 0.005562666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Settings/Build Profiles/Android™ 1.asset
-  artifactKey: Guid(24ab638f7b5907b4ea52f5e94b9b9933) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Build Profiles/Android™ 1.asset using Guid(24ab638f7b5907b4ea52f5e94b9b9933) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Missing types referenced from component BuildProfile on game object Android™ 1:
-	UnityEditor.Android.AndroidPlatformBuildSettings, UnityEditor.Android.Extensions (1 object)
- -> (artifact id: 'fa0394284f768db04cdc6235e0dbcc38') in 0.002392125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/annotated.html
-  artifactKey: Guid(ab3f1e36ba715624d861075fb076aa12) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/annotated.html using Guid(ab3f1e36ba715624d861075fb076aa12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1986a7f056a6e18da3b1d666304681b9') in 0.001322875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/namespaces.html
-  artifactKey: Guid(192ef4fdf4e78b2418d97b09c61991fc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/namespaces.html using Guid(192ef4fdf4e78b2418d97b09c61991fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca9843ec3b4971b5349b9de5b20dba59') in 0.001578291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/functions_func.html
-  artifactKey: Guid(bb4697379ea5fa247be00d0a29ebc73d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/functions_func.html using Guid(bb4697379ea5fa247be00d0a29ebc73d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56e4b927b29ca6a178b0bf071c3aa402') in 0.001197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.471843 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/struct_client_log.html
-  artifactKey: Guid(957a0dc2a18ee1f488d285c70004eeb2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/struct_client_log.html using Guid(957a0dc2a18ee1f488d285c70004eeb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5e27e5bf2bfbf654cf7547bb3ccbd67') in 0.002309417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/tabs.css
-  artifactKey: Guid(aa74616159060bf45b12ae47b9076cc0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/tabs.css using Guid(aa74616159060bf45b12ae47b9076cc0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3d8442864215b91bbf5573c6ae52381') in 0.001091125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/tab_h.png
-  artifactKey: Guid(e5c065bb9f79f2e4f991231c2cf4fd91) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/tab_h.png using Guid(e5c065bb9f79f2e4f991231c2cf4fd91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9a6c23a994d5da535aafce7ebc7be97') in 0.004960583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Plugin/UnityOSC-master/docs/doxygen/html/struct_server_log.html
-  artifactKey: Guid(355d4b1e01e125940bf190cf445dc347) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Plugin/UnityOSC-master/docs/doxygen/html/struct_server_log.html using Guid(355d4b1e01e125940bf190cf445dc347) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c7611651aaf50c657ccb71a0f3f34b1') in 0.001804167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
