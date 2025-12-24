@@ -1,9 +1,8 @@
 #include <Arduino.h>
-
 // Single motor pin configuration (matching your working code structure)
-const int EN_PIN = 21;   // Enable/PWM pin
-const int IN1_PIN = 22;    // Direction control 1
-const int IN2_PIN = 23;    // Direction control 2
+const int EN_PIN = 12;   // Enable/PWM pin
+const int IN1_PIN = 14;    // Direction control 1
+const int IN2_PIN = 27;    // Direction control 2
 const int PWM_CHANNEL = 3; // PWM channel
 
 const uint32_t PWM_FREQ = 1000;  // Match your working code
@@ -27,6 +26,8 @@ static inline void motorOn(uint8_t duty) {
 void setup() {
   Serial.begin(115200);
   delay(1000);
+
+
   
   // Setup direction pins
   pinMode(IN1_PIN, OUTPUT);

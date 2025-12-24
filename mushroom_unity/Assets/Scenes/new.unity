@@ -257,10 +257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab69405c9b30485d8f72f53460cac0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleSpeakerTest
-  testFrequency: 40
-  testVolume: 0.5
-  autoStart: 1
-  showGUI: 1
 --- !u!114 &981161914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,7 +264,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981161907}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df3562204da46439ab0ae3d5f63efbdf, type: 3}
   m_Name: 
@@ -279,6 +275,28 @@ MonoBehaviour:
   esp32Address: 192.168.1.50
   esp32Port: 12345
   logPackets: 0
+  redundancyCount: 3
+  minStrength: 30
+  maxStrength: 60
+  motorIndices: 0000000001000000
+--- !u!114 &981161917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981161907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2bee16b40aa9429791a44ecb34301de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TwoMotorSerialHaptics
+  videoPlayer: {fileID: 0}
+  timelineFileName: mushroom_timeline.json
+  preSendOffsetMs: 5
+  portName: /dev/cu.usbserial-10
+  baudRate: 115200
+  logPackets: 1
   minStrength: 30
   maxStrength: 60
   motorIndices: 0000000001000000
@@ -447,6 +465,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6993841855644678931, guid: 25bb268356398493f9bfc98469b45201, type: 3}
       insertIndex: -1
       addedObject: {fileID: 981161914}
+    - targetCorrespondingSourceObject: {fileID: 6993841855644678931, guid: 25bb268356398493f9bfc98469b45201, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 981161917}
   m_SourcePrefab: {fileID: 100100000, guid: 25bb268356398493f9bfc98469b45201, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

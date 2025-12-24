@@ -1,17 +1,26 @@
+#if !UNITY_WEBGL
 using System;
 using System.Collections;
 using System.IO;
+#if UNITY_STANDALONE || UNITY_EDITOR
 using System.IO.Ports;
+#endif
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Video;
+#endif
 
 /// <summary>
 /// Controls first 2 motors via USB Serial connection with strength range 30-60.
 /// More reliable than WiFi - no packet loss, low latency.
 /// Attach this component to the same GameObject as the VideoPlayer.
+/// 
+/// REQUIREMENTS:
+/// - Unity must be set to .NET 4.x API Compatibility Level
+/// - Edit → Project Settings → Player → Other Settings → Api Compatibility Level → .NET Framework
 /// </summary>
+#if !UNITY_WEBGL && (UNITY_STANDALONE || UNITY_EDITOR)
 public class TwoMotorSerialHaptics : MonoBehaviour
 {
     [Header("Video / Timeline")]
@@ -22,7 +31,7 @@ public class TwoMotorSerialHaptics : MonoBehaviour
 
     [Header("Serial Port Settings")]
     [SerializeField, Tooltip("Serial port name (e.g., COM3 on Windows, /dev/cu.usbserial-xxxx on Mac)")]
-    private string portName = "COM3";
+    private string portName = "/dev/cu.usbserial-10";
     [SerializeField] private int baudRate = 115200;
     [SerializeField] private bool logPackets = true;
 
@@ -76,7 +85,8 @@ public class TwoMotorSerialHaptics : MonoBehaviour
             yield break;
         }
 
-        // Setup serial port
+        // Setup serial port - no try-catch around yield statements
+        bool portOpened = false;
         try
         {
             serialPort = new SerialPort(portName, baudRate);
@@ -86,32 +96,7 @@ public class TwoMotorSerialHaptics : MonoBehaviour
             serialPort.Open();
             
             Debug.Log($"✓ Serial port opened: {portName} @ {baudRate} baud");
-            
-            // Wait for ESP32 to initialize
-            yield return new WaitForSeconds(2f);
-            
-            // Send test PING
-            Debug.Log("Sending test PING...");
-            serialPort.WriteLine("PING");
-            
-            // Try to read response
-            try
-            {
-                string response = serialPort.ReadLine();
-                Debug.Log($"ESP32 responded: {response}");
-            }
-            catch (TimeoutException)
-            {
-                Debug.LogWarning("No response from ESP32 (timeout). Check Serial Monitor is closed.");
-            }
-            
-            ready = true;
-            nextIndex = 0;
-
-            Debug.Log($"Loaded {timeline.entries.Length} entries.");
-            Debug.Log($"Motor strength range: {minStrength}-{maxStrength}");
-            Debug.Log($"Controlling motors: {string.Join(", ", motorIndices)}");
-            Debug.Log("=== Setup Complete ===");
+            portOpened = true;
         }
         catch (Exception ex)
         {
@@ -123,6 +108,41 @@ public class TwoMotorSerialHaptics : MonoBehaviour
             Debug.LogError($"4. On Mac, try: ls /dev/cu.* in Terminal to find port name");
             yield break;
         }
+        
+        if (!portOpened)
+        {
+            yield break;
+        }
+        
+        // Wait for ESP32 to initialize
+        yield return new WaitForSeconds(2f);
+        
+        // Send test PING
+        Debug.Log("Sending test PING...");
+        try
+        {
+            serialPort.WriteLine("PING");
+            
+            // Try to read response
+            string response = serialPort.ReadLine();
+            Debug.Log($"ESP32 responded: {response}");
+        }
+        catch (TimeoutException)
+        {
+            Debug.LogWarning("No response from ESP32 (timeout). Check Serial Monitor is closed.");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"Communication error: {ex.Message}");
+        }
+        
+        ready = true;
+        nextIndex = 0;
+
+        Debug.Log($"Loaded {timeline.entries.Length} entries.");
+        Debug.Log($"Motor strength range: {minStrength}-{maxStrength}");
+        Debug.Log($"Controlling motors: {string.Join(", ", motorIndices)}");
+        Debug.Log("=== Setup Complete ===");
     }
 
     private void Update()
@@ -291,3 +311,15 @@ public class TwoMotorSerialHaptics : MonoBehaviour
         }
     }
 }
+#else
+// Dummy class for WebGL or unsupported platforms
+public class TwoMotorSerialHaptics : MonoBehaviour
+{
+    private void Start()
+    {
+        Debug.LogError("TwoMotorSerialHaptics requires .NET 4.x API Compatibility Level!");
+        Debug.LogError("Go to: Edit → Project Settings → Player → Other Settings → Api Compatibility Level → .NET Framework");
+        enabled = false;
+    }
+}
+#endif
